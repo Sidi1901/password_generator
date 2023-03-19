@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Password generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="modal-box">
+                <input type="text" id="psddisplay">
+                <div class="inplabel">
+                    <label>Password size</label>
+                    <input type="number" id="len" min="0" max="15">
+                </div>
+                
+                <div class="inplabel">
+                    <label>Upper case letters</label>
+                    <input type="checkbox" id="upper">
+                </div>
+                
+                <div class="inplabel">
+                    <label>Lower case letters</label>
+                    <input type="checkbox" id="lower">
+                </div>
+            
+                <div class="inplabel">
+                    <label>Numbers</label>
+                    <input type="checkbox" id="num">
+                </div>
+                
+                <div class="inplabel">
+                    <label>Special symbols</label>
+                    <input type="checkbox" id="sym">
+                </div>
+
+                <button id="btn">Get password</button>
+            </div>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
